@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81A6E0641DBBC14B006EC7F9 /* UpdateRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A6E0631DBBC14B006EC7F9 /* UpdateRecordViewController.m */; };
+		E6B7D24A1DB9CAE700F44463 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B7D2491DB9CAE700F44463 /* main.m */; };
+		E6B7D24D1DB9CAE700F44463 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B7D24C1DB9CAE700F44463 /* AppDelegate.m */; };
+		E6B7D2501DB9CAE700F44463 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B7D24F1DB9CAE700F44463 /* ViewController.m */; };
+		E6B7D2531DB9CAE700F44463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B7D2511DB9CAE700F44463 /* Main.storyboard */; };
+		E6B7D2561DB9CAE700F44463 /* InsertUpdateEmpRecords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6B7D2541DB9CAE700F44463 /* InsertUpdateEmpRecords.xcdatamodeld */; };
+		E6B7D2581DB9CAE700F44463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B7D2571DB9CAE700F44463 /* Assets.xcassets */; };
+		E6B7D25B1DB9CAE700F44463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B7D2591DB9CAE700F44463 /* LaunchScreen.storyboard */; };
+		E6B7D2661DB9CAE700F44463 /* InsertUpdateEmpRecordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B7D2651DB9CAE700F44463 /* InsertUpdateEmpRecordsTests.m */; };
+		E6B7D2711DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B7D2701DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests.m */; };
+		E6B7D27F1DB9CB4A00F44463 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B7D27E1DB9CB4A00F44463 /* libsqlite3.0.tbd */; };
+		E6B7D2821DB9D4E500F44463 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B7D2811DB9D4E500F44463 /* TableViewController.m */; };
+		E6B7D2851DB9D58F00F44463 /* EmployeeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B7D2841DB9D58F00F44463 /* EmployeeClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6B7D2621DB9CAE700F44463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B7D23D1DB9CAE700F44463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B7D2441DB9CAE700F44463;
+			remoteInfo = InsertUpdateEmpRecords;
+		};
+		E6B7D26D1DB9CAE700F44463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B7D23D1DB9CAE700F44463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B7D2441DB9CAE700F44463;
+			remoteInfo = InsertUpdateEmpRecords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81A6E0621DBBC14B006EC7F9 /* UpdateRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateRecordViewController.h; sourceTree = "<group>"; };
+		81A6E0631DBBC14B006EC7F9 /* UpdateRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateRecordViewController.m; sourceTree = "<group>"; };
+		E6B7D2451DB9CAE700F44463 /* InsertUpdateEmpRecords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsertUpdateEmpRecords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B7D2491DB9CAE700F44463 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6B7D24B1DB9CAE700F44463 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6B7D24C1DB9CAE700F44463 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6B7D24E1DB9CAE700F44463 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6B7D24F1DB9CAE700F44463 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6B7D2521DB9CAE700F44463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6B7D2551DB9CAE700F44463 /* InsertUpdateEmpRecords.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InsertUpdateEmpRecords.xcdatamodel; sourceTree = "<group>"; };
+		E6B7D2571DB9CAE700F44463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6B7D25A1DB9CAE700F44463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6B7D25C1DB9CAE700F44463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B7D2611DB9CAE700F44463 /* InsertUpdateEmpRecordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertUpdateEmpRecordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B7D2651DB9CAE700F44463 /* InsertUpdateEmpRecordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertUpdateEmpRecordsTests.m; sourceTree = "<group>"; };
+		E6B7D2671DB9CAE700F44463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B7D26C1DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsertUpdateEmpRecordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B7D2701DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertUpdateEmpRecordsUITests.m; sourceTree = "<group>"; };
+		E6B7D2721DB9CAE700F44463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B7D27E1DB9CB4A00F44463 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E6B7D2801DB9D4E500F44463 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		E6B7D2811DB9D4E500F44463 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		E6B7D2831DB9D58F00F44463 /* EmployeeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeClass.h; sourceTree = "<group>"; };
+		E6B7D2841DB9D58F00F44463 /* EmployeeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6B7D2421DB9CAE700F44463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B7D27F1DB9CB4A00F44463 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B7D25E1DB9CAE700F44463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B7D2691DB9CAE700F44463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6B7D23C1DB9CAE700F44463 = {
+			isa = PBXGroup;
+			children = (
+				E6B7D27E1DB9CB4A00F44463 /* libsqlite3.0.tbd */,
+				E6B7D2471DB9CAE700F44463 /* InsertUpdateEmpRecords */,
+				E6B7D2641DB9CAE700F44463 /* InsertUpdateEmpRecordsTests */,
+				E6B7D26F1DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests */,
+				E6B7D2461DB9CAE700F44463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6B7D2461DB9CAE700F44463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7D2451DB9CAE700F44463 /* InsertUpdateEmpRecords.app */,
+				E6B7D2611DB9CAE700F44463 /* InsertUpdateEmpRecordsTests.xctest */,
+				E6B7D26C1DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6B7D2471DB9CAE700F44463 /* InsertUpdateEmpRecords */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7D24B1DB9CAE700F44463 /* AppDelegate.h */,
+				E6B7D24C1DB9CAE700F44463 /* AppDelegate.m */,
+				E6B7D24E1DB9CAE700F44463 /* ViewController.h */,
+				E6B7D24F1DB9CAE700F44463 /* ViewController.m */,
+				E6B7D2511DB9CAE700F44463 /* Main.storyboard */,
+				E6B7D2571DB9CAE700F44463 /* Assets.xcassets */,
+				E6B7D2591DB9CAE700F44463 /* LaunchScreen.storyboard */,
+				E6B7D25C1DB9CAE700F44463 /* Info.plist */,
+				E6B7D2541DB9CAE700F44463 /* InsertUpdateEmpRecords.xcdatamodeld */,
+				E6B7D2481DB9CAE700F44463 /* Supporting Files */,
+				E6B7D2801DB9D4E500F44463 /* TableViewController.h */,
+				E6B7D2811DB9D4E500F44463 /* TableViewController.m */,
+				E6B7D2831DB9D58F00F44463 /* EmployeeClass.h */,
+				E6B7D2841DB9D58F00F44463 /* EmployeeClass.m */,
+				81A6E0621DBBC14B006EC7F9 /* UpdateRecordViewController.h */,
+				81A6E0631DBBC14B006EC7F9 /* UpdateRecordViewController.m */,
+			);
+			path = InsertUpdateEmpRecords;
+			sourceTree = "<group>";
+		};
+		E6B7D2481DB9CAE700F44463 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7D2491DB9CAE700F44463 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6B7D2641DB9CAE700F44463 /* InsertUpdateEmpRecordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7D2651DB9CAE700F44463 /* InsertUpdateEmpRecordsTests.m */,
+				E6B7D2671DB9CAE700F44463 /* Info.plist */,
+			);
+			path = InsertUpdateEmpRecordsTests;
+			sourceTree = "<group>";
+		};
+		E6B7D26F1DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7D2701DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests.m */,
+				E6B7D2721DB9CAE700F44463 /* Info.plist */,
+			);
+			path = InsertUpdateEmpRecordsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6B7D2441DB9CAE700F44463 /* InsertUpdateEmpRecords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B7D2751DB9CAE700F44463 /* Build configuration list for PBXNativeTarget "InsertUpdateEmpRecords" */;
+			buildPhases = (
+				E6B7D2411DB9CAE700F44463 /* Sources */,
+				E6B7D2421DB9CAE700F44463 /* Frameworks */,
+				E6B7D2431DB9CAE700F44463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsertUpdateEmpRecords;
+			productName = InsertUpdateEmpRecords;
+			productReference = E6B7D2451DB9CAE700F44463 /* InsertUpdateEmpRecords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6B7D2601DB9CAE700F44463 /* InsertUpdateEmpRecordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B7D2781DB9CAE700F44463 /* Build configuration list for PBXNativeTarget "InsertUpdateEmpRecordsTests" */;
+			buildPhases = (
+				E6B7D25D1DB9CAE700F44463 /* Sources */,
+				E6B7D25E1DB9CAE700F44463 /* Frameworks */,
+				E6B7D25F1DB9CAE700F44463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B7D2631DB9CAE700F44463 /* PBXTargetDependency */,
+			);
+			name = InsertUpdateEmpRecordsTests;
+			productName = InsertUpdateEmpRecordsTests;
+			productReference = E6B7D2611DB9CAE700F44463 /* InsertUpdateEmpRecordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6B7D26B1DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B7D27B1DB9CAE700F44463 /* Build configuration list for PBXNativeTarget "InsertUpdateEmpRecordsUITests" */;
+			buildPhases = (
+				E6B7D2681DB9CAE700F44463 /* Sources */,
+				E6B7D2691DB9CAE700F44463 /* Frameworks */,
+				E6B7D26A1DB9CAE700F44463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6B7D26E1DB9CAE700F44463 /* PBXTargetDependency */,
+			);
+			name = InsertUpdateEmpRecordsUITests;
+			productName = InsertUpdateEmpRecordsUITests;
+			productReference = E6B7D26C1DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6B7D23D1DB9CAE700F44463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Student-004";
+				TargetAttributes = {
+					E6B7D2441DB9CAE700F44463 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E6B7D2601DB9CAE700F44463 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E6B7D2441DB9CAE700F44463;
+					};
+					E6B7D26B1DB9CAE700F44463 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E6B7D2441DB9CAE700F44463;
+					};
+				};
+			};
+			buildConfigurationList = E6B7D2401DB9CAE700F44463 /* Build configuration list for PBXProject "InsertUpdateEmpRecords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6B7D23C1DB9CAE700F44463;
+			productRefGroup = E6B7D2461DB9CAE700F44463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6B7D2441DB9CAE700F44463 /* InsertUpdateEmpRecords */,
+				E6B7D2601DB9CAE700F44463 /* InsertUpdateEmpRecordsTests */,
+				E6B7D26B1DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6B7D2431DB9CAE700F44463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B7D25B1DB9CAE700F44463 /* LaunchScreen.storyboard in Resources */,
+				E6B7D2581DB9CAE700F44463 /* Assets.xcassets in Resources */,
+				E6B7D2531DB9CAE700F44463 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B7D25F1DB9CAE700F44463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B7D26A1DB9CAE700F44463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6B7D2411DB9CAE700F44463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B7D2501DB9CAE700F44463 /* ViewController.m in Sources */,
+				81A6E0641DBBC14B006EC7F9 /* UpdateRecordViewController.m in Sources */,
+				E6B7D24D1DB9CAE700F44463 /* AppDelegate.m in Sources */,
+				E6B7D2851DB9D58F00F44463 /* EmployeeClass.m in Sources */,
+				E6B7D24A1DB9CAE700F44463 /* main.m in Sources */,
+				E6B7D2821DB9D4E500F44463 /* TableViewController.m in Sources */,
+				E6B7D2561DB9CAE700F44463 /* InsertUpdateEmpRecords.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B7D25D1DB9CAE700F44463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B7D2661DB9CAE700F44463 /* InsertUpdateEmpRecordsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B7D2681DB9CAE700F44463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B7D2711DB9CAE700F44463 /* InsertUpdateEmpRecordsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6B7D2631DB9CAE700F44463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B7D2441DB9CAE700F44463 /* InsertUpdateEmpRecords */;
+			targetProxy = E6B7D2621DB9CAE700F44463 /* PBXContainerItemProxy */;
+		};
+		E6B7D26E1DB9CAE700F44463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B7D2441DB9CAE700F44463 /* InsertUpdateEmpRecords */;
+			targetProxy = E6B7D26D1DB9CAE700F44463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6B7D2511DB9CAE700F44463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B7D2521DB9CAE700F44463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6B7D2591DB9CAE700F44463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B7D25A1DB9CAE700F44463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6B7D2731DB9CAE700F44463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6B7D2741DB9CAE700F44463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6B7D2761DB9CAE700F44463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InsertUpdateEmpRecords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateEmpRecords";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6B7D2771DB9CAE700F44463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InsertUpdateEmpRecords/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateEmpRecords";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6B7D2791DB9CAE700F44463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsertUpdateEmpRecordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateEmpRecordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertUpdateEmpRecords.app/InsertUpdateEmpRecords";
+			};
+			name = Debug;
+		};
+		E6B7D27A1DB9CAE700F44463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsertUpdateEmpRecordsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateEmpRecordsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsertUpdateEmpRecords.app/InsertUpdateEmpRecords";
+			};
+			name = Release;
+		};
+		E6B7D27C1DB9CAE700F44463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsertUpdateEmpRecordsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateEmpRecordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InsertUpdateEmpRecords;
+			};
+			name = Debug;
+		};
+		E6B7D27D1DB9CAE700F44463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsertUpdateEmpRecordsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Felix-ITs.InsertUpdateEmpRecordsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InsertUpdateEmpRecords;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6B7D2401DB9CAE700F44463 /* Build configuration list for PBXProject "InsertUpdateEmpRecords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B7D2731DB9CAE700F44463 /* Debug */,
+				E6B7D2741DB9CAE700F44463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B7D2751DB9CAE700F44463 /* Build configuration list for PBXNativeTarget "InsertUpdateEmpRecords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B7D2761DB9CAE700F44463 /* Debug */,
+				E6B7D2771DB9CAE700F44463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B7D2781DB9CAE700F44463 /* Build configuration list for PBXNativeTarget "InsertUpdateEmpRecordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B7D2791DB9CAE700F44463 /* Debug */,
+				E6B7D27A1DB9CAE700F44463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B7D27B1DB9CAE700F44463 /* Build configuration list for PBXNativeTarget "InsertUpdateEmpRecordsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B7D27C1DB9CAE700F44463 /* Debug */,
+				E6B7D27D1DB9CAE700F44463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6B7D2541DB9CAE700F44463 /* InsertUpdateEmpRecords.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6B7D2551DB9CAE700F44463 /* InsertUpdateEmpRecords.xcdatamodel */,
+			);
+			currentVersion = E6B7D2551DB9CAE700F44463 /* InsertUpdateEmpRecords.xcdatamodel */;
+			path = InsertUpdateEmpRecords.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6B7D23D1DB9CAE700F44463 /* Project object */;
+}
